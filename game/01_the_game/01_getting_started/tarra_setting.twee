@@ -1,0 +1,29 @@
+:: Terra Setting []
+
+如果你已经不是第一次玩了，请选择专家模式，它将解锁你已经经历过且不必再经历的剧情。<br><br>
+
+1、跳过教程遭遇战并获取初始的胡椒喷雾上限；<br>
+2、解锁罗宾的初遇；<br>
+3、解锁孤儿院的阁楼；<br>
+4、所有市政厅项目都已经完成；<br>
+5、有自己的假身份证，无需成为妓女；<br>
+6、屏蔽掉过运河去公寓区的选项，现在一直可以过桥；<br>
+
+<<link [[选择专家模式|Terra Setting]]>>
+
+<<set $expert_mode to 1>>
+
+<<initnpc Robin>>
+<<specialClothesUnlock "item" "dark pendant">>
+<<set $loft_known to 1>><<set $loft_upgrade to 0>>
+<<set $tutorial to 1>><<set $spraymax++>>
+<<set $town_projects.bridge to 3>>
+<<set $town_projects.diving to 3>>
+<<set $town_projects.green to 3>>
+<<set $town_projects.road to 3>>
+<<set $town_projects.thicket to 3>>
+<<set $stripclubintro to 1>>
+
+<</link>>
+
+<<link [[继续|Bedroom]]>><</link>>
