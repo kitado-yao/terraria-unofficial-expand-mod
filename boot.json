@@ -1,0 +1,89 @@
+{
+  "name": "Terraria Unoffical Expand Mod",
+  "version": "0.0.0.0",
+  "styleFileList": [
+  ],
+  "scriptFileList": [
+  ],
+  "tweeFileList": [
+  ],
+  "imgFileList": [
+    
+  ],
+  "scriptFileList_inject_early": [
+    
+  ],
+  "additionFile": [
+    
+  ],
+  "addonPlugin": [
+    {
+      "modName": "TweeReplacer",
+      "addonName": "TweeReplacerAddon",
+      "modVersion": "1.0.0",
+      "params": [
+        {
+          "passage": "Orphanage Intro",
+          "findString": "<<link [[继续|Bedroom]]>><</link>>",
+          "replace": "<<link [[继续|Terra Setting]]>><</link>>"
+        },
+        {
+          "passage": "Barb Sreeet",
+          "findString": "<<flatsicon>><<link [[穿过运河前往公寓区 (0:01)|Flats Canal]]>><<pass 1>><</link>>",
+          "replace": "<<link [[穿过运河前往公寓区 (0:01)|Flats Canal]]>><<pass 1>><</link>>"
+        }
+      ]
+    },
+    {
+      "modName": "ModLoader DoL ImageLoaderHook",
+      "addonName": "ImageLoaderAddon",
+      "modVersion": "2.0.0"
+    },
+    {
+      "modName": "ReplacePatcher",
+      "addonName": "ReplacePatcherAddon",
+      "modVersion": "1.0.0",
+      "params": {
+        "js": [
+
+        ]
+      }
+    },
+    {
+      "modName": "ModdedFeatsAddon",
+      "addonName": "ModdedFeatsAddon",
+      "modVersion": "^1.0.0",
+      "params": {
+        "feats": [
+
+        ]
+      }
+    }
+  ],
+  "dependenceInfo": [
+    {
+      "modName": "TweeReplacer",
+      "version": ">=1.0.0"
+    },
+    {
+      "modName": "ModLoader DoL ImageLoaderHook",
+      "version": "^2.19.0"
+    },
+    {
+      "modName": "ReplacePatcher",
+      "version": "^1.0.0"
+    },
+    {
+      "modName": "ModdedFeatsAddon",
+      "version": "^1.0.0"
+    },
+    {
+      "modName": "GameVersion",
+      "version": ">=0.5.8.9"
+    },
+    {
+      "modName": "SweetAlert2Mod",
+      "version": "^1.0.0"
+    }
+  ]
+}
